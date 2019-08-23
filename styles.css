@@ -1,6 +1,59 @@
-/* font-family: 'Open Sans', sans-serif; */
-/* font-family: 'Open Sans', sans-serif; */
 
+h1 {
+  color: #2B4E80;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
+.fortune-box {
+  background-color: #E6ECF4;
+  height: 522px;
+  width: 522px;
+  padding-left: 20px;
+}
+.question-textbox {
+  font-size: 18px;
+  height: 40px;
+  margin-top: 15px;
+  text-align: center;
+  width: 492px;
+}
+
+#answer-button {
+  background-color: #2B4E80;
+  color: white;
+  font-size: 18px;
+  height: 40px;
+  width: 496px;
+}
+
+.eight-ball {
+  height: 250px;
+  margin-left: 120px;
+  padding-top: 40px;
+  width: 250px;
+}
+
+#clear-button {
+  background-color: #D0CDCD;
+  color: white;
+  margin-left: 457px;
+  margin-top: 80px;
+}
+
+.woody-image {
+
+  height: 522px;
+  width: 350px;
+
+}
 /*
 COLORS
 H1, Get answer button, text in input field: #2B4E80;
