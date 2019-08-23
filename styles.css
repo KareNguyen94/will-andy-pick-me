@@ -45,14 +45,22 @@ main {
   background-color: #D0CDCD;
   color: white;
   margin-left: 457px;
-  margin-top: 80px;
+  margin-top: 85px;
 }
 
 .woody-image {
-
   height: 522px;
   width: 350px;
+}
 
+#answers {
+  font-size:18px;
+  text-align: center;
+}
+
+#question {
+  font-size:18px;
+  text-align: center;
 }
 /*
 COLORS
