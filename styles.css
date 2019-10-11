@@ -1,20 +1,21 @@
 
 h1 {
   color: #2B4E80;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', "sans-serif";
   font-size: 50px;
   text-align: center;
 }
 
 main {
   align-items: center;
+  justify-content: center;
   display: flex;
   margin: auto;
 }
 
 .fortune-box {
   background-color: #E6ECF4;
-  height: 522px;
+  height: 500px;
   width: 522px;
   padding-left: 20px;
 }
@@ -31,7 +32,7 @@ main {
   color: white;
   font-size: 18px;
   height: 40px;
-  width: 496px;
+  width: 497px;
 }
 
 .eight-ball {
@@ -41,26 +42,47 @@ main {
   width: 250px;
 }
 
-#clear-button {
+.clear-button-container {
+padding-left: 86%;
+margin-top: 13%;
+}
+
+ #clear-button {
   background-color: #D0CDCD;
   color: white;
-  margin-left: 457px;
-  margin-top: 85px;
-}
+  width: 55px;
+  height: 20px;
+ }
 
 .woody-image {
   height: 522px;
   width: 350px;
 }
 
-#answers {
-  font-size:18px;
+#question,
+#answer {
   text-align: center;
+  margin: auto;
 }
 
 #question {
-  font-size:18px;
-  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  padding-top: 10%;
+}
+
+#answer {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 1%;
+}
+
+.hidden {
+  display: none;
+}
+
+.clear-button-background {
+  background-color: red;
 }
 /*
 COLORS

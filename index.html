@@ -10,17 +10,23 @@
       <h1>Will Andy pick me?</h1>
   <main class="will-andy-pick-me">
     <section class="fortune-box">
-      <input class="question-textbox" type="text" value="Ask your question here!"><br>
-      <button id="answer-button" type="button">Get your answer</button><br>
-      <img class="eight-ball" src="assets/eight-ball.png" alt="Eight ball fortune teller"><br>
+      <form>
+       <input class="question-textbox" type="text" placeholder="Ask your question here!">
+       <button id="answer-button" type="button">Get your answer</button>
+       <img class="eight-ball" src="assets/eight-ball.png" alt="Eight ball fortune teller">
+     </form>
     <div class="answer-box">
-      <p id="answers"></p>
+      <p id="question"></p>
+      <p id="answer"></p>
     </div>
+    <div class="clear-button-container">
       <button id="clear-button" type="button">Clear</button>
+    </div>
     </section>
     <section class="woody-image">
       <img class="woody" src="assets/woody.png" alt="woody cowboy from toy story">
     </section>
   </main>
+    <script src="./index.js"></script>
   </body>
 </html>
